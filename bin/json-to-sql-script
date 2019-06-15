@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require('../dist/json-to-sql-script.js');
