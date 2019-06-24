@@ -1,8 +1,11 @@
 {
   "name": "json-to-sql-script",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Convert your JSON-file to SQL-script for inserting to database.",
   "main": "json-to-sql-script",
+  "bin": {
+    "json-to-sql-script": "./bin/json-to-sql-script"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
