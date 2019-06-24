@@ -1,10 +1,9 @@
 {
   "name": "json-to-sql-script",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert your JSON-file to SQL-script for inserting to database.",
   "main": "json-to-sql-script",
   "scripts": {
-    "start": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,11 +13,9 @@
   "author": "Vit Tertiumnon",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^12.0.8",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.2",
-    "typescript": "^3.5.2"
+    "eslint-plugin-import": "^2.17.2"
   },
   "dependencies": {
     "arg": "^4.1.0"

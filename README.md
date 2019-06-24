@@ -11,9 +11,9 @@ npm i -g json-to-sql-script
 ## Arguments
 
 ```node
-'-s': '--source' // Source file path
-'-o': '--output' // Output file path
-'-n': '--name' // Main table name
+'-s': '--source' // Source file path (required)
+'-o': '--output' // Output file path (required)
+'-n': '--name' // Main table name (required)
 '-e': '--excludes' // Exclude property names
 ```
 
