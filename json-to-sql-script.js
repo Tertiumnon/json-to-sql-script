@@ -15,6 +15,8 @@ const args = arg({
   '-e': '--excludes',
 });
 
+const excludes = [];
+
 const isArgsValid = () => {
   if (
     !(args['--source'] !== undefined
@@ -22,6 +24,9 @@ const isArgsValid = () => {
     && args['--name'] !== undefined)
   ) {
     throw new Error('Check your arguments.');
+  }
+  if (args['--excludes'] !== undefined) {
+    excludes = args['--excludes'].join('|');  
   }
   return true;
 };
@@ -33,7 +38,7 @@ const main = () => {
   if (items.length > 0) {
     let res = '';
     items.forEach((item) => {
-      res += sql.insert(item, args);
+      res += sql.insert(item, args, excludes);
     });
     fs.writeFile(args['--output'], res, (err) => {
       if (err) throw err;
