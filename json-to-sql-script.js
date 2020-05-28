@@ -8,7 +8,6 @@ const args = arg({
   '--output': String,
   '--name': String,
   '--excludes': [String],
-
   // Aliases
   '-s': '--source',
   '-o': '--output',
@@ -16,7 +15,18 @@ const args = arg({
   '-e': '--excludes',
 });
 
-if (args['--source'] !== undefined && args['--output'] !== undefined && args['--name'] !== undefined) {
+const isArgsValid = () => {
+  if (
+    !(args['--source'] !== undefined
+    && args['--output'] !== undefined
+    && args['--name'] !== undefined)
+  ) {
+    throw new Error('Check your arguments.');
+  }
+  return true;
+};
+
+const main = () => {
   const content = fs.readFileSync(args['--source'], { encoding: 'utf8' });
   const data = JSON.parse(content);
   const items = data.data;
@@ -30,6 +40,8 @@ if (args['--source'] !== undefined && args['--output'] !== undefined && args['--
       console.log(`File "${args['--output']}" has been saved!`);
     });
   }
-} else {
-  throw new Error('Check your arguments.');
+};
+
+if (isArgsValid()) {
+  main();
 }
