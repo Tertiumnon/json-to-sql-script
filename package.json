@@ -1,6 +1,6 @@
 {
   "name": "json-to-sql-script",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Convert your JSON-file to SQL-script for inserting to database.",
   "main": "json-to-sql-script",
   "bin": {
@@ -16,11 +16,17 @@
   "author": "Vit Tertiumnon",
   "license": "ISC",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.2"
   },
   "dependencies": {
     "arg": "^4.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
