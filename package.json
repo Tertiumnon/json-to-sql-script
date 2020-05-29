@@ -1,6 +1,6 @@
 {
   "name": "json-to-sql-script",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Convert your JSON-file to SQL-script for inserting to database.",
   "main": "json-to-sql-script",
   "bin": {
