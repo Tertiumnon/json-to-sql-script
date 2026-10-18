@@ -18,7 +18,7 @@
     "sql"
   ],
   "author": "Vit Tertiumnon",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "cz-conventional-changelog": "^3.2.0",
     "eslint": "^5.16.0",
