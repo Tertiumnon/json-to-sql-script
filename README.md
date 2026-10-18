@@ -72,3 +72,7 @@ Script adds rows with ref_{{table_name}}_name:
 ```sql
 INSERT IGNORE INTO items_components (name,ref_item_name) VALUES ("Salt","Rye bread.");
 ```
+
+## Support
+
+If this project is useful to you, you can support its development on [Ko-fi](https://ko-fi.com/tertiumnon).
