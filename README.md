@@ -1,4 +1,4 @@
-# JSON to SQL script
+# JSON to SQL Script
 
 This package creates SQL script from JSON-file.
 
