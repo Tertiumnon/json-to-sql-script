@@ -8,7 +8,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "changelog": "npx @tertium/gith changelog"
+    "changelog": "npx @tertium/gith changelog",
+    "release:patch": "npx @tertium/gith release --patch",
+    "release:minor": "npx @tertium/gith release --minor",
+    "release:major": "npx @tertium/gith release --major"
   },
   "keywords": [
     "json",
