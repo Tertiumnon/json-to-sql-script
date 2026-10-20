@@ -1,6 +1,6 @@
 # JSON to SQL Script
 
-This package creates SQL script from JSON-file.
+Convert your JSON-file to SQL-script for inserting to database.
 
 ## Arguments
 
