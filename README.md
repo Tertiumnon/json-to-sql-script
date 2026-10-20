@@ -2,12 +2,6 @@
 
 This package creates SQL script from JSON-file.
 
-## Install
-
-```bash
-npm i -g json-to-sql-script
-```
-
 ## Arguments
 
 ```node
@@ -72,6 +66,10 @@ Script adds rows with ref_{{table_name}}_name:
 ```sql
 INSERT IGNORE INTO items_components (name,ref_item_name) VALUES ("Salt","Rye bread.");
 ```
+
+## Documentation
+
+- [Install](docs/INSTALL.md)
 
 ## Support
 
