@@ -1,0 +1,31 @@
+type: cli
+display_name:
+  en: json-to-sql-script
+summary:
+  en: Fast and type-safe CLI tool to convert JSON files to SQL INSERT statements.
+keywords:
+  - json
+  - sql
+  - cli
+categories:
+  - developer-tools
+status: stable
+languages:
+  - en
+default_language: en
+code_languages:
+  - TypeScript
+engines:
+  - node >=18
+team:
+  - name: Vit Tertiumnon
+    roles:
+      - owner
+      - developer
+platforms:
+  npm:
+    settings:
+      name: json-to-sql-script
+distribution:
+  - npm
+data_collected: none
