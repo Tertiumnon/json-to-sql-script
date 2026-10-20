@@ -29,3 +29,5 @@ platforms:
 distribution:
   - npm
 data_collected: none
+publish_on:
+  - https://tertiumnon.github.io
