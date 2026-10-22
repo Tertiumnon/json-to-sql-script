@@ -1,3 +1,19 @@
 type: cli
-publish_on:
+slug: json-to-sql-script
+listed_on:
   - https://tertiumnon.github.io
+display_name:
+  en: "JSON to SQL Script"
+summary:
+  en: "Convert your JSON-file to SQL-script for inserting to database."
+languages:
+  - en
+default_language: en
+distribution:
+  - npm
+team:
+  - name: Vitalii Balabanov
+    roles:
+      - owner
+      - developer
+    github: Tertiumnon
