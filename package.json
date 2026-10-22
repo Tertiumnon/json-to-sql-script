@@ -17,8 +17,16 @@
     "json",
     "sql"
   ],
-  "author": "Vit Tertiumnon",
+  "author": "Vitalii Balabanov",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tertiumnon/json-to-sql-script.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tertiumnon/json-to-sql-script/issues"
+  },
+  "homepage": "https://github.com/Tertiumnon/json-to-sql-script#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.2.0",
     "eslint": "^5.16.0",
